@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     printf("CADASTRO DA CARTA 1\n");
@@ -82,7 +83,7 @@ int main() {
 
     
     printf("Qual o número da População?: ");
-    scanf("%f", &populacao2);
+    scanf("%d", &populacao2);
 
     printf("Qual a Área da cidade em (Km)?: ");
     scanf("%f", &area2);
@@ -99,10 +100,10 @@ int main() {
     printf("Estado: %c\n", iniciall);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
-    printf("População: %d \n", populacao2);
+    printf("População: %d\n", populacao2);
     printf("Área: %f\n", area2);
     printf("PIB: %f\n", pib2);
-    printf("Número de Pontos Turisticos: %d\n", turistico2);
+    printf("Pontos Turisticos: %d\n", turistico2);
     
     return 0;
 }
